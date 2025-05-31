@@ -1,0 +1,33 @@
+#root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Custom styles for Vision-QA Assistant */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.message-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+.message-input {
+  padding: 16px;
+  border-top: 1px solid #e0e0e0;
+  background-color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .message-input {
+    padding: 8px;
+  }
+}
